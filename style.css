@@ -1,0 +1,394 @@
+body{
+margin: 0px;
+padding: 0px;
+   
+}
+div.main{  
+ height: 1000px;
+ background-size: cover;
+}
+
+*{
+ font-family: arial;   
+}
+
+
+
+
+
+
+
+
+div.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+background-color: rgba(0,0,0, 0.4);
+}
+
+
+
+
+div.navbar a.join {
+color: white;
+background-color: blue;
+color: white;
+border: 2px blue;
+padding: 10px;
+border-radius: 10px;
+border: 2px solid white;
+background-color: transparent;
+}
+
+
+
+div.joinnavbar{
+	background-color: black;
+	text-align: center;
+	
+}
+
+
+
+div.navbar a{
+color: white;
+margin: 20px;    
+}
+
+
+
+div.det{
+text-align: center;
+padding-top: 150px;
+color: white;
+}
+div.det button{
+ background-color: aqua;
+ color: white;
+border-radius: 10px;
+border: 2px solid aqua;
+padding: 10px;
+}
+
+h3{
+margin-top: 100px;   
+text-align: ;
+}
+
+
+
+div.games {
+display: flex;
+width: 60%;
+margin: auto;
+justify-content: space-around;
+align-items: center;
+}
+
+div.game{
+    text-align: center;
+}
+
+
+div.game div.img{
+ width: 120px;
+height: 120px;
+border-radius:120px;
+background-image: url('image/pubg.jpg');
+background-size: cover;
+background-position: center;
+}
+
+div.game2 div.img{
+    background-image: url(image/callofduty.jpg);
+}
+
+div.game3 div.img{
+    background-image: url('image/fortnite.png');
+}
+
+div.game4 div.img{
+background-image: url('image/pes2020.jpg');
+}
+
+
+
+
+div.maingame{
+ display: flex;
+ justify-content: center;   
+ background-color: darkblue;
+    width: 60%;
+margin: auto;
+    padding: 50px;
+     border-radius: 10px;
+    line-height: 23px;
+}
+div.maingame button{
+ background-color: aqua;
+ color: white;
+border-radius: 10px;
+border: 2px solid aqua;
+padding: 10px;
+}
+ div.upcoming h1{
+text-align: center;
+}   
+
+
+div.maingame img{
+    
+    margin-right: -100px;
+    border-radius: 10px;
+}
+
+p.p{
+text-align: center;
+}
+
+
+
+
+div.posts{
+display: flex;
+width: 70%;
+margin: auto;
+justify-content: space-around;
+align-items: center;  
+
+}
+div.post {
+ margin: 25px;
+background-color: black;
+border-radius: 8px;
+    color: white;
+}
+div.post h3 , div .post p, div.post h5{
+padding-right: 10px;    
+padding-left: 10px;   
+    
+}
+div.postscontent h1,postsconent p{
+text-align: center;
+}
+div .post p, div.post h5{
+display: inline-block;
+}
+div .post p{
+font-size: 15px;
+text-align: left;
+}
+
+div.post1 div.img,div.post2 div.img ,div.post3 div.img{
+    background-image: url('image/post1.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+  div.post2 div.img{
+background-image: url('image/post2.jpg');
+}
+  div.post3 div.img{
+background-image: url('image/post3.jpg');
+}
+div.testis{
+display: flex;
+width: 70%;
+margin: auto;
+justify-content: center;
+}
+div.test h1{
+text-align: center;
+    margin-bottom: 80px;
+}
+
+
+div.testi{
+margin: 20px;
+background-color: black;
+text-align: center;
+border-radius: 8px;
+}
+p.Shady{
+color: white;
+}
+div.testi1 div.img{
+height: 80px;
+background-image: url('image/boy.png');
+}
+div.testi2 div.img{
+height: 80px;
+background-image: url('image/girl.png');   
+}
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url('image/boy.png');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+.pricing h2{
+ text-align: center;   
+    
+}
+.prices{
+display: flex;
+justify-content: center;
+ width: 60%;
+margin: auto;
+    text-align: center;
+    
+    
+}
+.price{
+ width: 30%;
+background-color: darkcyan;
+color: white;
+margin: 8px;
+ padding-bottom: 15px;
+padding-top: 15px;
+border-radius: 8px;
+}
+.price button{
+   background-color: transparent;
+ color: white;
+border-radius: 10px;
+border: 2px solid aqua;
+padding: 10px;  
+}
+.planprice{
+ background-color: darkblue;
+ padding-top: 15px;
+padding-bottom: 15px;
+}
+.planprice h3{
+ margin-top: 0px;   
+}
+.joinform{
+display: flex;
+justify-content: center;
+	margin: auto;
+	width: 60%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+ .joinform .Image{
+width: 35%;	
+}
+
+
+
+.joinform . form{
+	width: 65%;
+}
+
+
+
+.joinform .Image{
+background-image: url('image/fantasty.jpg');
+background-size: cover;
+background-position: top;
+height: 500px;
+padding: 15px;
+border-top-left-radius:  10px;
+border-bottom-left-radius: 10px;
+}
+
+
+
+form input , form button{
+padding: 10px;
+font-size: 16px;
+border: 1px solid cadetblue;
+border-radius: 5px;
+display: block;
+margin: 10px;
+}
+
+
+form{
+width 60%;
+margin: auto;
+display: flex;
+flex-direction: column;
+padding: 100px;
+}
+form button{
+	background-color: blue;
+	color: white;
+}
+.footer{
+	color: white;
+	background-color: aqua;
+	text-align: center;
+	padding: 10px;
+	margin-top: 50px;
+	
+	
+}
+ul{
+	display: none;
+	position: fixed;
+    top: 70px;
+    right: 210px;
+	color: white;
+	background-color: blue;
+padding: 0px;
+}
+li {
+
+list-style-type: none;
+color: cyan;
+	padding-left: 15px;
+	margin-bottom: 10px;
+	padding-right:  15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left{
+	position: fixed;
+top: 390px;
+left: 50px;
+}
+.right{
+	position: fixed;
+	top: 390px;
+right: 50px;
+}
